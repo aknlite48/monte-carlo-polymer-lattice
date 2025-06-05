@@ -16,6 +16,19 @@ This simulation models polymer chains as sequences of connected monomers on a di
 - **Multiple Energy Modes**: Support for uniform or monomer-specific interaction energies
 - **Batch Processing**: Multiple simulation runs with automated output organization
 
+## Visualization
+
+The simulation generates several types of visualizations:
+
+- **Animation**: Shows polymer movement over time with different colors for each monomer type
+- **Energy Plot**: Tracks energy evolution throughout the simulation
+- **Final State**: Static image of the final polymer configuration
+- **Minimum Energy State**: Configuration with the lowest energy encountered
+
+Example of animation GIF:
+![run_1_length_8_energy_same_animation](https://github.com/user-attachments/assets/256cd178-7f6b-4aaa-8638-cfc18dce3258)
+
+
 ## Installation
 
 ### Prerequisites
@@ -169,20 +182,6 @@ config.custom_energies = {
 }
 run_simulation(config)
 ```
-
-## Visualization
-
-The simulation generates several types of visualizations:
-
-- **Animation**: Shows polymer movement over time with different colors for each monomer type
-- **Energy Plot**: Tracks energy evolution throughout the simulation
-- **Final State**: Static image of the final polymer configuration
-- **Minimum Energy State**: Configuration with the lowest energy encountered
-
-Example of animation GIF:
-![run_1_energy_-1_animation](https://github.com/user-attachments/assets/5bbb096b-ab6c-433b-8c60-2c0c09b7278c)
-
-
 
 ## Performance Considerations
 
