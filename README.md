@@ -179,6 +179,11 @@ The simulation generates several types of visualizations:
 - **Final State**: Static image of the final polymer configuration
 - **Minimum Energy State**: Configuration with the lowest energy encountered
 
+Example of animation GIF:
+![run_1_energy_-1_animation](https://github.com/user-attachments/assets/5bbb096b-ab6c-433b-8c60-2c0c09b7278c)
+
+
+
 ## Performance Considerations
 
 - **Lattice Size**: Larger lattices require more memory and computation time
